@@ -1,0 +1,50 @@
+body{
+  
+    background-image:url(https://plus.unsplash.com/premium_photo-1715428084281-c13dc4337f23?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    color:blue;
+    font-family:Sans;
+    font-size:16px;
+  }
+  h1{
+    text-align:center;
+    background-color:white;
+    max-width:300px;  
+    margin: 0 auto;
+  }
+  form{
+    margin: 0 auto;
+    display:block;
+    width:50%;
+    background-color: #535ff2;
+    color:#f9ffff;
+    border-radius:10px;
+    padding:10
+    
+  }
+  
+  p[id="description"]{
+    max-width:400;
+    text-align:center;
+    margin: 0 auto;
+  }
+  label{
+    display:block;
+  }
+  button{
+    width:200px;
+    height:20;
+    margin:5px auto;
+    display:block;
+  }
+  textarea{
+    margin-bottom:20;
+    margin-top:-10;
+  }
+  
+  .orden{
+    margin-left:10px;
+  }
+  .email{
+    margin-left:10px
+  }
+  
