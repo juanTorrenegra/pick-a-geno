@@ -1,0 +1,42 @@
+<DOCTYPE html>
+    <html>
+      <head>
+        <link rel="stylesheet" href="styles.css"
+      </head>
+      <body>
+        <h1 id="title">Pick-a-geno</h1>
+        <p id="description" type="titulo">In this game you will be able to choose your favorite geno, choose your weapons and start claimming what is rightfully yours!</p>
+        <form id="survey-form">
+          <label id="name-label" for="name">Full Name <input id="name" class="orden"type="text"placeholder="Enter name"required value="name"/></label>
+          <label id="email-label"for="email">Email<input id="email" class="email"type="email" pattern="[a-z0-5]{8,}" required placeholder="Enter Email" value="email"/></label>
+          <label id="number-label" for="number">Confimr Age <input id="number" type="number" min="13" max="120" placeholder="age" value="age"/></label>
+          <label for="dropdown">
+          <p>You not only need land, you need resources!</p>
+          <select id="dropdown">
+            <option value="">select your Enemy</option>
+            <option>Afghanistan</option>
+            <option>Palestina</option>
+            <option>Yemen</option>
+            <option>Syria</option>
+            <option>Vietnam</option>
+          </select>
+          </label>
+          <p>Which OS do you have:</p>
+          <label for="radiobutton1"><input id="radiobutton1" type="radio"name="same"value="windows">Windows</label>
+          <label for="radiobutton2"><input id="radiobutton2" type="radio"name="same"value="linux">Linux</label>
+          
+         
+          <p>How many million dolars would you like to recieve from USA?</p>
+          <label for="ch1"><input id="ch1" type="checkbox" value="1">50 millions</label>
+          <label for="ch2"><input id="ch2" type="checkbox" value="2">10 millions</label>
+          <label for="ch3"><input id="ch3" type="checkbox" value="3">80 millions</label>
+          <label for="ch4"><input id="ch4" type="checkbox" value="4">None, i can defend myself</label>
+          
+           <p>We are trying to improve, leave comments on what else would you like to posess</p>
+          <label for="textarea"><textarea id="textarea" type"text" rows="2"cols="16"></textarea></label>
+          
+          <button id="submit" value="Submit" type="submit" >submit</button>
+        </form>
+  
+      </body>
+    </html>
